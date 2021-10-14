@@ -1,5 +1,8 @@
 # CS1660 bonus mini project
 
+## Video walkthrough
+[Code walkthrough and demo](https://www.youtube.com/watch?v=zG5EXmwwX14)
+
 ## Container URLs
 1. [sentiment-analysis-frontend](https://hub.docker.com/repository/docker/smm248/sentiment-analysis-frontend)
 
