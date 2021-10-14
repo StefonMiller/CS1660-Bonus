@@ -60,7 +60,7 @@
  
  ![Webapp service created](./Sentiment-Analysis/webapp-service-done.PNG)
  
- 17. Get the IP of the web app load balancer service by executing ``kubectl get svc``. Make note of the external IP address as well as the port number. Using this IP and port     number, create a URL using the template "http://"ip":"port"/sentiment". From the below image, the URL I would use is http://34.73.111.218:80/sentiment
+ 17. Get the IP of the web app load balancer service by executing ``kubectl get svc``. Make note of the external IP address as well as the port number. Using this IP and port     number, create a URL using the template http://"ip":"port"/sentiment. From the below image, the URL I would use is http://34.73.111.218:80/sentiment
 
  ![Webapp ip](./Sentiment-Analysis/webapp-ip.PNG)
  
