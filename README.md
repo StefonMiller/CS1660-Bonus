@@ -37,6 +37,7 @@
  10. You should now have a terminal connected to your Kubernetes cluster with a command entered automatically. Press Enter to execute this command, you may have to authorize the GCP API call
  ![Initial command](./Sentiment-Analysis/initial-command.PNG)
  11. Create a deployment file for the flask logic pods by executing ``nano sa-logic-deployment.yaml`` and pasting the text from the yaml file in the repository you cloned. The path to any of the yaml files referenced shoudld be k8s-mastery->resource-manifests. Make sure you replace the "image" tag with "smm248/sentiment-analysis-logic" under spec->containers in the yaml file. Save the changes to the file once you are finished.
+ 
  ![Logic deployment](./Sentiment-Analysis/logic-deployment.PNG)
  12. Once the deployment file has been created, execute ``kubectl apply -f sa-logic-deployment.yaml`` to create the deployment. Verify 2 pods were created by executing ``kubectl get pods``
  ![Logic deployed](./Sentiment-Analysis/logic-deployment-done.PNG)
